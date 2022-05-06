@@ -1,12 +1,12 @@
-const CILCoin = new BlockChain();
+const Coin = new BlockChain();
 
-CILCoin.addBlock({sender: "Thor of Asgard", receiver: "Thanos", amount: 1090});
-
-
-CILCoin.addBlock({sender: "Sky Walker", receiver: "Jedi", amount: 450});
+Coin.addBlock({sender: "Abeer", receiver: "Alaa", amount: 1090});
 
 
-CILCoin.addBlock({sender: "The Penguin", receiver: "Dr. Steven Strange", amount: 35});
+Coin.addBlock({sender: "Doaa", receiver: "Maram", amount: 450});
 
 
-console.log(JSON.stringify(CILCoin, null, 4));
+Coin.addBlock({sender: "Hadeel", receiver: "Sara", amount: 35});
+
+
+console.log(JSON.stringify(Coin, null, 4));
